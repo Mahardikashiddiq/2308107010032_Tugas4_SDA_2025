@@ -4,7 +4,7 @@ Kelas : SDA D
 
 # README - Program Perbandingan Algoritma Sorting
 
-Program ini merupakan alat untuk membandingkan performa berbagai algoritma sorting menggunakan data angka (integer) dan kata (string). Program utama mengimplementasikan 6 algoritma sorting yang berbeda dan mengukur waktu eksekusi serta penggunaan memori untuk setiap algoritma pada dataset dengan ukuran yang bervariasi.
+Program ini merupakan program untuk membandingkan performa berbagai algoritma sorting menggunakan data angka (integer) dan kata (string). Program utama mengimplementasikan 6 algoritma sorting yang berbeda dan mengukur waktu eksekusi serta penggunaan memori untuk setiap algoritma pada dataset dengan ukuran yang bervariasi.
 
 ## Struktur Program
 
@@ -29,7 +29,7 @@ Setiap algoritma diimplementasikan untuk kedua jenis data: integer dan string.
 
 ## Cara Penggunaan
 
-1. Pertama, gunakan `angka.c` dan `kata.c` untuk membangkitkan data uji:
+1. Pertama, gunakan `angka.c` dan `kata.c` yang ada pada folder data untuk membangkitkan data uji:
    ```
    gcc angka.c -o angka
    ./angka
@@ -37,7 +37,7 @@ Setiap algoritma diimplementasikan untuk kedua jenis data: integer dan string.
    ./kata
    ```
 
-2. Kompilasi program utama:
+2. Kompilasi program utama yaitu `main.c` yang ada folder src untuk menjalankan program :
    ```
    gcc main.c -o main
    ./main
