@@ -31,27 +31,23 @@ Setiap algoritma diimplementasikan untuk kedua jenis data: integer dan string.
 
 1. Pertama, gunakan `angka.c` dan `kata.c` untuk membangkitkan data uji:
    ```
-   gcc angka.c -o generate_angka
-   ./generate_angka
-   gcc kata.c -o generate_kata
-   ./generate_kata
+   gcc angka.c -o angka
+   ./angka
+   gcc kata.c -o kata
+   ./kata
    ```
 
 2. Kompilasi program utama:
    ```
-   gcc main.c -o sorting_benchmarker
-   ```
+   gcc main.c -o main
+   ./main
+   ``
 
-3. Jalankan program utama:
-   ```
-   ./sorting_benchmarker
-   ```
-
-4. Ikuti petunjuk pada program:
+3. Ikuti petunjuk pada program:
    - Pilih jenis data (1 untuk angka, 2 untuk kata)
    - Pilih ukuran data yang ingin diuji (10.000 hingga 2.000.000)
 
-5. Program akan menampilkan hasil performa setiap algoritma sorting dalam format tabel.
+4. Program akan menampilkan hasil performa setiap algoritma sorting dalam format tabel.
 
 ## Detail Implementasi
 
